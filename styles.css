@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+    
+}
+.body{
+    background-color:azure;
+    width: 100vw;
+    font-size: 2rem;
+    margin: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-container{
+    text-transform: uppercase;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-header{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input-search{
+    padding: 10px;
+    border-radius: 10px;
+    border-color:cornflowerblue;
+}
+.btn-search{
+    padding: 5px;
+    border-radius: 10px;
+    border-color:cornflowerblue;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25rem;
+    }
+.titlefav{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-bottom: 1px solid rgba(48, 78, 216, 0.822);
+}
+.titlesearch{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-bottom: 1px solid rgba(48, 78, 216, 0.822);
+}
+.section-fav{
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    text-transform: uppercase;
+    
+}
+.section-search{
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase
+}
+.serie{
+    text-transform: uppercase;
+    font-size: 2rem;
+    list-style-type: none;
+    
+}
+
+.img{
+    width: 200px;
+}
+
+.stylecard{
+    border: 2px solid lightskyblue;
+    color: blue;
+    border-radius: 15px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.stylecardfav{
+    background-color:aquamarine;
+    border: 2px solid black;
+    color:rgb(63, 99, 6);
+    border-radius: 15px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px; 
+    background-color: lightblue;
+}
+.delete{
+    border-radius: 10px;
+    padding: 3px;
+    border-color:cornflowerblue;
+}
